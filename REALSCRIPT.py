@@ -130,9 +130,9 @@ for network in network_list():
     payload = {
         "mode": "spoke",
         "hubs": [
-            {"hubId": "L_694680242521899536", "useDefaultRoute": False},
-            {"hubId": "N_694680242521901854", "useDefaultRoute": False},
-            {"hubId": "N_694680242521902469", "useDefaultRoute": False},
+            {"hubId": "L_XXXXXXXXXXXXXXXXXX", "useDefaultRoute": False},
+            {"hubId": "N_XXXXXXXXXXXXXXXXXX", "useDefaultRoute": False},
+            {"hubId": "N_XXXXXXXXXXXXXXXXXX", "useDefaultRoute": False},
         ],
         "subnets": [{"localSubnet": f"172.21.{subnet}.0/24", "useVpn": True}],
     }
